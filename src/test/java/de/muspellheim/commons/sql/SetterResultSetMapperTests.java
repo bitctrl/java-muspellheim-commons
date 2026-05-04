@@ -11,9 +11,10 @@ import org.junit.jupiter.api.Tag;
 @Tag("postgres")
 class SetterResultSetMapperTests extends BaseResultSetMapperTests {
 
-  @BeforeEach
-  void setUp() {
-    super.setUp();
-    mapper = new SetterResultSetMapper<>(ExampleEntity.class);
-  }
+	@Override
+	@BeforeEach
+	void setUp() {
+		super.setUp();
+		mapper = new SetterResultSetMapper<>(ExampleEntity.class);
+	}
 }

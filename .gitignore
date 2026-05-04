@@ -6,3 +6,5 @@ lombok.config
 
 # IntelliJ IDEA
 .idea/
+bin
+.settings
